@@ -1,6 +1,9 @@
-{"footerNav" : [
+{
+    "footerDescription" : "Made with <3 by Carly",
+    "footerNav" : [
         {
-            "label" : "Made with <3 by Carly",
+            "label" : "Github",
             "url" : "https://github.com/carly-kins"
         }
-    ]}
+    ]
+}
