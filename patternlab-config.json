@@ -73,7 +73,6 @@
     }
   },
   "patternExtension": "hbs",
-  "transformedAssetTypes": ["scss"],
   "patternStateCascade": [
     "inprogress",
     "inreview",
@@ -112,5 +111,6 @@
     "handlebars": {
       "extend": "helpers/*.js"
     }
-  }
+  },
+  "transformedAssetTypes": ["scss"]
 }

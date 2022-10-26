@@ -1,18 +1,6 @@
 {"footerNav" : [
         {
-            "label" : "Footer Nav",
-            "url" : "#"
-        },
-        {
-            "label" : "Footer Nav",
-            "url" : "#"
-        },
-        {
-            "label" : "Footer Nav",
-            "url" : "#"
-        },
-        {
-            "label" : "Footer Nav",
-            "url" : "#"
+            "label" : "Made with <3 by Carly",
+            "url" : "https://github.com/carly-kins"
         }
     ]}

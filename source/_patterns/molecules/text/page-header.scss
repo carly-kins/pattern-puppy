@@ -11,6 +11,12 @@
 .c-page-header__title {
 	text-align: center;
 	margin: $spacing-large auto $spacing-small;
+	font-size: $font-size-med-2;
+
+	@include lg {
+		font-size: $font-size-xl;
+	}
+
 }
 
 /**

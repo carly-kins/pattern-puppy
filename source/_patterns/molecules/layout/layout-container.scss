@@ -9,13 +9,8 @@
  */
 .l-container {
 	margin: 0 auto;
+	max-width: 16em;
 
-	@include sm {
-		max-width: 16em;
-	}
-	@include md{
-		max-width: 40em;
-	}
 	@include lg {
 		max-width: $l-max-width;
 	}
