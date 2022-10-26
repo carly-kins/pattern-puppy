@@ -2,12 +2,12 @@
   "items": [
     {
       "name": "$font-family-primary",
-      "value": "\"HelveticaNeue\", \"Helvetica\", \"Arial\", sans-serif",
+      "value": "\"Open Sans\", sans-serif",
       "comment": ""
     },
     {
       "name": "$font-family-secondary",
-      "value": "serif",
+      "value": "\"Press Start 2P\", serif",
       "comment": ""
     }
   ],

@@ -1,8 +1,33 @@
 {
   "items": [
     {
+      "name": "$color-brand-pink",
+      "value": "#BE375D",
+      "comment": ""
+    },
+    {
+      "name": "$color-brand-yellow",
+      "value": "#FFD900",
+      "comment": ""
+    },
+    {
       "name": "$color-brand-blue",
-      "value": "#0000ff",
+      "value": "#466AC3",
+      "comment": ""
+    },
+    {
+      "name": "$color-brand-green",
+      "value": "#4a9a52",
+      "comment": ""
+    },
+    {
+      "name": "$color-brand-black",
+      "value": "#151514",
+      "comment": ""
+    },
+    {
+      "name": "$color-brand-gray",
+      "value": "#474744",
       "comment": ""
     }
   ],

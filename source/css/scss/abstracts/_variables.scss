@@ -41,7 +41,13 @@
  * Brand Colors
  * 1) Brand=specific colors
  */
-$color-brand-blue: #0000ff;
+$color-brand-pink: #BE375D;
+$color-brand-yellow: #FFD900;
+$color-brand-blue: #466AC3;
+$color-brand-green: #4a9a52;
+$color-brand-black: #151514;
+$color-brand-gray: #474744;
+
 
 /**
  * Neutral Colors
@@ -72,11 +78,14 @@ $color-utility-warning: #a59b15;
     #TYPOGRAPHY
 \*------------------------------------*/
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 /**
  * Font Family
  */
-$font-family-primary: sans-serif;
-$font-family-secondary: sans-serif;
+$font-family-primary: "Open Sans", sans-serif;
+$font-family-secondary: "Press Start 2P", serif;
 
 /**
  * Font Sizing
