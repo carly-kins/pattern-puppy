@@ -55,3 +55,31 @@
 	font-weight: normal;
 	line-height: 1.2;
 }
+
+// Small devices
+@mixin sm {
+	@media (min-width: #{$bp-small}) {
+		@content;
+	}
+ }
+ 
+ // Medium devices
+ @mixin md {
+	@media (min-width: #{$bp-med}) {
+		@content;
+	}
+ }
+ 
+ // Large devices
+ @mixin lg {
+	@media (min-width: #{$bp-large}) {
+		@content;
+	}
+ }
+ 
+ // Extra large devices
+ @mixin xl {
+	@media (min-width: #{$bp-xl}) {
+		@content;
+	}
+ }

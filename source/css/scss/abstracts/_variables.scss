@@ -116,6 +116,7 @@ $line-height-xl: 1.8;
  */
 $l-max-width: 60rem !default;
 $l-linelength-width: 36rem !default;
+$puppy-width: round(0.75 * $l-max-width);
 
 /*------------------------------------*\
     #SPACING
@@ -129,6 +130,7 @@ $l-linelength-width: 36rem !default;
 $spacing: 1rem;
 $spacing-small: round(0.5 * $spacing);
 $spacing-large: round(2 * $spacing);
+$spacing-xlarge: round(4 * $spacing);
 
 /*------------------------------------*\
     #BORDERS

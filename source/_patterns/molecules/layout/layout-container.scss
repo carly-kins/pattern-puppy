@@ -8,10 +8,16 @@
  *    and centers the container
  */
 .l-container {
-	max-width: $l-max-width;
 	margin: 0 auto;
 
-	&__img {
-		margin-top: $spacing
+	@include sm {
+		max-width: 16em;
 	}
+	@include md{
+		max-width: 40em;
+	}
+	@include lg {
+		max-width: $l-max-width;
+	}
+	
 }

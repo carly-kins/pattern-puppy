@@ -97,6 +97,6 @@ module.exports = function(grunt) {
   });
   // Default task(s).
   grunt.registerTask('default', ['clean']);
-  grunt.registerTask('source', ['sass', 'copy:mustache', 'uglify']);
+  grunt.registerTask('source', ['sass', 'copy:mustache']);
   grunt.registerTask('public', ['cssmin', 'imagemin', 'copy:main', 'copy:js'])
 };

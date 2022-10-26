@@ -1,0 +1,15 @@
+.puppy-container {
+	width: $bp-small;
+    height: auto;
+    margin: 0 auto;
+
+    @include sm {
+		max-width: 16em;
+	}
+	@include md{
+		max-width: 40em;
+	}
+	@include lg {
+		max-width: $l-max-width;
+	}
+}
