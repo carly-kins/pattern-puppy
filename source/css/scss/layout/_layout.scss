@@ -1,0 +1,32 @@
+/*------------------------------------*\
+    #LAYOUT
+\*------------------------------------*/
+
+/**
+ *
+ * 1) This caps the width of text passages
+ *    to achieve a comfortable line length
+ */
+.l-linelength-container {
+	max-width: $l-linelength-width;
+}
+
+/*------------------------------------*\
+    #CONTAINERS
+\*------------------------------------*/
+
+
+
+/**
+ *
+ * 1) Making use of Bootstrap's Containers - if you need to update anything, do it here: https://getbootstrap.com/docs/5.2/layout/containers/
+
+.container	{}
+.container-sm {}
+.container-md {}
+.container-lg {}
+.container-xl {}
+.container-xxl {}
+.container-fluid {}
+
+*/

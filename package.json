@@ -1,0 +1,44 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "src:css": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 source/css/style.scss source/css/style.css",
+    "pl:build": "patternlab build --config ./patternlab-config.json",
+    "pl:help": "patternlab --help",
+    "pl:install": "patternlab install --config ./patternlab-config.json",
+    "pl:serve": "patternlab serve --config ./patternlab-config.json",
+    "pl:version": "patternlab --version",
+    "start": "npm run pl:serve",
+    "dev": "grunt && grunt source && npm run start",
+    "build": "grunt && grunt source && npm run pl:build && grunt public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pattern-lab/cli": "^5.17.0",
+    "@pattern-lab/core": "^5.17.0",
+    "@pattern-lab/engine-handlebars": "^5.16.4",
+    "@pattern-lab/starterkit-handlebars-vanilla": "^1.4.3",
+    "@pattern-lab/uikit-workshop": "^5.17.0",
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.2",
+    "jquery": "^3.3.1",
+    "matchdep": "^2.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.12",
+    "grunt": "^1.5.3",
+    "grunt-contrib-clean": "^2.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^4.0.0",
+    "grunt-contrib-imagemin": "^4.0.0",
+    "grunt-contrib-uglify": "^5.2.2",
+    "grunt-sass": "^3.1.0",
+    "node-sass": "^7.0.3",
+    "postcss-cli": "^10.0.0"
+  }
+}

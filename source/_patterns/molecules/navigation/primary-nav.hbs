@@ -1,0 +1,23 @@
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <!--Add mustache data to data-bs-target-->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#{{ toggleID }}" aria-controls="{{ toggleID }}" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="{{ toggleID }}">
+      <ul class="navbar-nav">
+        {{# navItems }}
+          <li class="nav-item{{#dropdown}} dropdown{{/dropdown}}">
+            <a class="nav-link{{#dropdown}} dropdown-toggle{{/dropdown}}" href="{{ url }}"{{#dropdown}}role="button" data-bs-toggle="dropdown" id="{{ dropdownID }}" aria-expanded="false"{{/dropdown}}>{{ label }}</a>
+            {{#dropdown}}
+              <ul class="dropdown-menu">
+              {{# dropdownItems }}
+                  <li class="dropdown-item"><a href="{{ url }}" class="nav-link">{{ title }}</a></li>
+              {{/ dropdownItems }}
+            </ul>
+            {{/dropdown}}
+          </li>
+        {{/ navItems }}
+      </ul>
+    </div>
+</nav>

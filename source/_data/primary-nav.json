@@ -1,0 +1,25 @@
+{
+    "toggleID" : "NavbarCollapse",
+    "navItems" : [
+        {
+            "label" : "Nav Item",
+            "url" : "#",
+            "dropdown" : {
+                "dropdownID" : "menu1",
+                "dropdownItems" : [
+                    {
+                        "title" : "Dropdown 1"
+                    }
+                    ]
+                }
+        },
+        {
+            "label" : "Nav Item",
+            "url" : "#"
+        },
+        {
+            "label" : "Nav Item",
+            "url" : "#"
+        }
+    ]
+}

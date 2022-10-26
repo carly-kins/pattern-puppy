@@ -1,0 +1,76 @@
+/*------------------------------------*\
+    #TABLE OF CONTENTS
+\*------------------------------------*/
+/**
+ * THIRD PARTY............................Third Party Sass
+ * ABSTRACTS..............................Declarations of Sass variables & mixins
+ * BASE...................................Default element styles
+ * LAYOUT.................................Layout-specific styles
+ * COMPONENTS.............................Component styles
+ * UTILITIES..............................Utility classes
+ */
+
+/*------------------------------------*\
+    #THIRD PARTY 
+\*------------------------------------*/
+@import "node_modules/bootstrap/scss/bootstrap-grid";
+@import "node_modules/bootstrap/scss/bootstrap-reboot";
+@import "node_modules/bootstrap/scss/bootstrap-utilities";
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap/scss/_utilities";
+@import "node_modules/bootstrap/scss/_variables";
+@import "node_modules/bootstrap/scss/_dropdown";
+@import "node_modules/bootstrap/scss/_nav";
+@import "node_modules/bootstrap/scss/_navbar";
+
+/*------------------------------------*\
+    #ABSTRACTS
+\*------------------------------------*/
+@import "scss/abstracts/variables";
+@import "scss/abstracts/mixins";
+@import "scss/abstracts/colors";
+
+/*------------------------------------*\
+    #BASE
+\*------------------------------------*/
+@import "scss/base/reset";
+@import "scss/base/body";
+@import "scss/base/links";
+@import "scss/base/lists";
+@import "scss/base/headings";
+@import "scss/base/forms";
+@import "scss/base/buttons";
+@import "scss/base/main";
+@import "scss/base/media";
+@import "scss/base/text";
+@import "scss/base/table";
+
+/*------------------------------------*\
+    #LAYOUT
+\*------------------------------------*/
+@import "scss/layout/layout";
+
+/*------------------------------------*\
+    #UTILITIES
+\*------------------------------------*/
+@import "scss/utilities/visibility";
+@import "scss/utilities/spacing";
+
+/*------------------------------------*\
+    #COMPONENTS
+\*------------------------------------*/
+@import "source/_patterns/atoms/images/icon";
+@import "source/_patterns/molecules/blocks/card";
+@import "source/_patterns/molecules/buttons/button";
+@import "source/_patterns/molecules/forms/field";
+@import "source/_patterns/molecules/global/logo";
+@import "source/_patterns/molecules/layout/grid";
+@import "source/_patterns/molecules/layout/layout-container";
+@import "source/_patterns/molecules/navigation/footer-nav";
+@import "source/_patterns/molecules/text/page-header";
+@import "source/_patterns/organisms/global/footer";
+@import "source/_patterns/organisms/global/header";
+@import "source/_patterns/organisms/lists/card-list";
+@import "source/_patterns/organisms/sections/section";
+@import "source/_patterns/organisms/tables/table";
+@import "source/_patterns/organisms/text/text-passage";
