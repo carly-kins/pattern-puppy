@@ -19,9 +19,6 @@
 @import "node_modules/bootstrap/scss/bootstrap";
 @import "node_modules/bootstrap/scss/_utilities";
 @import "node_modules/bootstrap/scss/_variables";
-@import "node_modules/bootstrap/scss/_dropdown";
-@import "node_modules/bootstrap/scss/_nav";
-@import "node_modules/bootstrap/scss/_navbar";
 
 /*------------------------------------*\
     #ABSTRACTS
@@ -38,12 +35,9 @@
 @import "scss/base/links";
 @import "scss/base/lists";
 @import "scss/base/headings";
-@import "scss/base/forms";
-@import "scss/base/buttons";
 @import "scss/base/main";
 @import "scss/base/media";
 @import "scss/base/text";
-@import "scss/base/table";
 
 /*------------------------------------*\
     #LAYOUT
@@ -59,18 +53,9 @@
 /*------------------------------------*\
     #COMPONENTS
 \*------------------------------------*/
-@import "source/_patterns/atoms/images/icon";
-@import "source/_patterns/molecules/blocks/card";
-@import "source/_patterns/molecules/buttons/button";
-@import "source/_patterns/molecules/forms/field";
-@import "source/_patterns/molecules/global/logo";
-@import "source/_patterns/molecules/layout/grid";
+
 @import "source/_patterns/molecules/layout/layout-container";
 @import "source/_patterns/molecules/navigation/footer-nav";
-@import "source/_patterns/molecules/text/page-header";
 @import "source/_patterns/organisms/global/footer";
-@import "source/_patterns/organisms/global/header";
-@import "source/_patterns/organisms/lists/card-list";
 @import "source/_patterns/organisms/sections/section";
-@import "source/_patterns/organisms/tables/table";
 @import "source/_patterns/organisms/text/text-passage";
