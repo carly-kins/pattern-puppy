@@ -1,4 +1,4 @@
-<h1 align="center">Pattern-Lab Setup 👋</h1>
+<h1 align="center">Pattern-Puppy</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   </a>
@@ -7,7 +7,7 @@
   </a>
 </p>
 
-> A experimental setup of Patternlab using grunt.js to automate final build.
+> Get it? A LAB is a type of Dog. 
 
 ## Install
 
