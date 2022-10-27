@@ -1,6 +1,15 @@
 
 <!--DO NOT REMOVE-->
-{{{ patternLabFoot }}}
+<script>
+    function animateCSS() {
+        const element = document.getElementById('finn')
+        element.classList.remove('animate__animated','animate__bounce'); // reset animation
+        void element.offsetWidth; // trigger reflow
+        element.classList.add('animate__animated','animate__bounce'); // start animation
+    };
 
+    element.addEventListener("click", animateCSS);
+</script>
+{{{ patternLabFoot }}}
 </body>
 </html>
