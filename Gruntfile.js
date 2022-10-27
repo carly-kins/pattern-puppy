@@ -47,10 +47,10 @@ module.exports = function(grunt) {
         },
         applib: {
           src: [
-            'node_modules/jquery/dist/jquery.slim.min.js',
-            'node_modules/@popperjs/core/dist/umd/popper.min.js',
-            'node_modules/bootstrap/dist/js/bootstrap.min.js',
-            'node_modules/bootstrap/js/dist/dropdown.js',
+            //'node_modules/jquery/dist/jquery.slim.min.js',
+            //'node_modules/@popperjs/core/dist/umd/popper.min.js',
+            //'node_modules/bootstrap/dist/js/bootstrap.min.js',
+            //'node_modules/bootstrap/js/dist/dropdown.js',
             'source/js/custom_js/*.js'
           ],
           dest: 'source/js/main.js'
@@ -77,7 +77,7 @@ module.exports = function(grunt) {
         js: {
           expand: true,
           cwd: 'public/js/',
-          src: ['*.js'],
+          src: ['main.js'],
           dest: 'pattern_exports/js/'
         },
       // Make .mustache match .hbs
@@ -85,11 +85,11 @@ module.exports = function(grunt) {
           expand: true,
           flatten: true,
           cwd: 'source',
-          src: ['**/head.hbs', '**/foot.hbs'],
+          src: ['**/_head.hbs', '**/_foot.hbs'],
           dest: 'source/_meta/',
           rename: function(dest, matchedSrcPath) {
-            if (matchedSrcPath.substring(0, 1) !== '_') {
-              return dest + '_' + matchedSrcPath.replace('.hbs', '.mustache');
+            if (matchedSrcPath.substring(0, 1) == '_') {
+              return dest + matchedSrcPath.replace('.hbs', '.mustache');
             }
           }
         },
@@ -97,6 +97,6 @@ module.exports = function(grunt) {
   });
   // Default task(s).
   grunt.registerTask('default', ['clean']);
-  grunt.registerTask('source', ['sass', 'copy:mustache', 'uglify']);
+  grunt.registerTask('source', ['sass', 'copy:mustache']);
   grunt.registerTask('public', ['cssmin', 'imagemin', 'copy:main', 'copy:js'])
 };

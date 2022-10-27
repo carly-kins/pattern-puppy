@@ -6,8 +6,15 @@
  * 1) A passage of text, including various components (i.e. article, blog post)
  */
 .c-text-passage {
+
+	margin-bottom: $spacing-xlarge;
+
 	p {
 		margin-bottom: 1rem;
+		
+		&.center {
+			text-align: center;
+		}
 	}
 
 	/**

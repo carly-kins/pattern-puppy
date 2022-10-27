@@ -1,7 +1,7 @@
 {
   "cacheBust": true,
   "cleanPublic": true,
-  "defaultPattern": "all",
+  "defaultPattern": "pages-PUPPY",
   "defaultShowPatternInfo": false,
   "ishControlsHide": {
     "s": false,
@@ -80,7 +80,7 @@
   ],
   "patternExportAll": false,
   "patternExportDirectory": "pattern_exports",
-  "patternExportPatternPartials": ["templates-page"],
+  "patternExportPatternPartials": ["pages-PUPPY"],
   "patternExportPreserveDirectoryStructure": true,
   "patternExportRaw": false,
   "patternMergeVariantArrays": false,
@@ -111,5 +111,6 @@
     "handlebars": {
       "extend": "helpers/*.js"
     }
-  }
+  },
+  "transformedAssetTypes": ["scss"]
 }

@@ -1,18 +1,15 @@
-{"footerNav" : [
+{
+    "footerDescription" : "Made with ❤️ by Carly",
+    "footerNav" : [
         {
-            "label" : "Footer Nav",
-            "url" : "#"
+            "url" : "https://github.com/carly-kins",
+            "src" : "../../images/GitHub-Mark-Light-64px.png",
+            "alt" : "GitHub"
         },
         {
-            "label" : "Footer Nav",
-            "url" : "#"
-        },
-        {
-            "label" : "Footer Nav",
-            "url" : "#"
-        },
-        {
-            "label" : "Footer Nav",
-            "url" : "#"
+            "url" : "https://twitter.com/Carly_kins_",
+            "src" : "../../images/Logo white.svg",
+            "alt" : "Twitter"
         }
-    ]}
+    ]
+}

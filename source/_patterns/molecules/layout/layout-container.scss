@@ -8,6 +8,11 @@
  *    and centers the container
  */
 .l-container {
-	max-width: $l-max-width;
 	margin: 0 auto;
+	max-width: 16em;
+
+	@include lg {
+		max-width: $l-max-width;
+	}
+	
 }

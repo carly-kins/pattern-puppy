@@ -22,4 +22,14 @@ body {
 	@include typographyBody();
 	background-color: $color-body-bg;
 	color: $color-body-text;
+	margin: 0;
+	padding: 0;
+
+	display: flex;
+  	flex-direction: column;
+}
+
+main {
+	flex-grow: 1;
+	background-color: $color-brand-blue;
 }

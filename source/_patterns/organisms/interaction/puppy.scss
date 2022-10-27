@@ -1,0 +1,16 @@
+#finn {
+    cursor: pointer;
+    display: block;
+}
+
+.puppy-container {
+	width: $bp-small;
+    height: auto;
+    margin: 0 auto;
+	max-width: 14rem;
+
+
+	@include lg {
+		max-width: $puppy-width;
+	}
+}
