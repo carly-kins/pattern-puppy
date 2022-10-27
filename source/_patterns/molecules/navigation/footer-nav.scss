@@ -1,7 +1,24 @@
-.c-footer-nav {
-	display: flex;
+.c-footer-description{
+	display: block;
+	text-align: center;
+	font-size: $font-size-sm-2;
+	font-style: italic;
+	margin: 10px auto 0;
+	color: $color-neutral-white;
 }
 
-.c-footer-nav__item {
-	margin-right: 2rem;
+.c-footer-nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	&__link {
+		
+		img {
+			width: 40px;
+			height: auto;
+			padding: 10px
+		}
+
+	}
 }

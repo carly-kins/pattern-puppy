@@ -1,9 +1,15 @@
 {
-    "footerDescription" : "Made with <3 by Carly",
+    "footerDescription" : "Made with ❤️ by Carly",
     "footerNav" : [
         {
-            "label" : "Github",
-            "url" : "https://github.com/carly-kins"
+            "url" : "https://github.com/carly-kins",
+            "src" : "../../images/GitHub-Mark-Light-64px.png",
+            "alt" : "GitHub"
+        },
+        {
+            "url" : "https://twitter.com/Carly_kins_",
+            "src" : "../../images/Logo white.svg",
+            "alt" : "Twitter"
         }
     ]
 }

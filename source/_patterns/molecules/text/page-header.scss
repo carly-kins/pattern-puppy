@@ -9,12 +9,13 @@
  * Page header title
  */
 .c-page-header__title {
+	padding-top: $spacing-xlarge;
 	text-align: center;
-	margin: $spacing-large auto $spacing-small;
+	margin: 0 auto $spacing-small;
 	font-size: $font-size-med-2;
 
-	@include lg {
-		font-size: $font-size-xl;
+	@include xl {
+		font-size: $font-size-large;
 	}
 
 }
