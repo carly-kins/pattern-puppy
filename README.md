@@ -9,6 +9,8 @@
 
 > Get it? A LAB is a type of Dog. 
 
+[See the demo here](http://pattern-puppy.s3-website.us-east-2.amazonaws.com)
+
 ## Install
 
 ```sh
